@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+     font-family: 'Roboto', sans-serif;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: #c9ccd15e; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.faceBook{
+    position:absolute;
+    top: 23px;
+}
+
+
+.faceBook h1{
+    font-size: 37px;
+    color: #0000ffb5;
+    font-weight: 600;
+}
+  
+
+
+.rightfb{
+   
+    min-height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+      text-align: center;
+}
+form{
+    width: 58%;
+    height: 61vh;
+    /* background-color: #fff; */
+    /* box-shadow: 0px 0px 6px #00000075; */
+    border-radius: 9px;
+    padding-top: 12px;
+    margin-bottom: 63px;
+}
+
+
+.rightfb form input{
+    width: 87%;
+    min-height: 4vh;
+    border-radius: 4px;
+    margin-top: 4px;
+    padding: 9px;
+    font-size: 14px;
+    background-color: #d8d8d83b;
+    border: none;
+    border-bottom: 1px solid #00000025;
+    border-left: 1px solid #00000008;
+    border-right: 1px solid #00000008;
+    border-top: 1px solid #00000008;
+}
+
+.btno-fb{
+    font-size: 20px;
+    padding: 8px 0px;
+    border-radius: 4px;
+    background-color: #0000ffb5;
+    color: #fff;
+    margin-top: 13px;
+    width: 94%;
+    border: none;
+    cursor: pointer;
+}
+.btna-fb{
+    font-size: 18px;
+    padding: 8px 0px;
+    border-radius: 4px;
+    background-color: #3dc221f5;
+    color: #fff;
+    margin-top: 52px;
+    width: 72%;
+    border: none;
+    cursor: pointer;
+}
+.or-div{
+ display: flex;
+ justify-content: center;
+ margin-top: 20px;
+}
+#header p{
+    flex: 0 1 auto;
+    padding: 0 15px 0 15px;
+}
+#header{
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    /* margin: 21px 0px 1px 13px; */
+}
+#header::before, #header::after {
+    content: '';
+    flex: 1 1 auto;
+    border-bottom: solid 1px rgb(222, 221, 218);
+}
+
+.forgetpassword{
+    margin-top: 20px;
+
+}
+.forgetpassword a{
+    text-underline-offset: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.forgetpassword a:hover{
+    text-decoration: underline;
+}
+.btna-fb:hover{
+    background-color:#3cc221e9 ;
+}
+.btno-fb:hover{
+    background-color: #0000ffa4;
+}
+.para{
+    position: relative;
+    top: 30px;
+    font-size: 14px;
+}
+
+.language{
+display: flex;
+}
+.left-attribute {
+    position: absolute;
+    left: 18%;
+    bottom: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.left-attribute a{
+    display: flex;
+    text-decoration: none;
+    color: #0e0909ad;
+    line-height: 19px;
+}
+.right-attribute{
+    position: absolute;
+    right: 18%;
+    bottom: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.right-attribute a{
+    display: flex;
+    text-decoration: none;
+    color: #0e0909ad;
+    line-height: 19px;
+
+}
+.right-attribute button{
+    color: #0e0909ad;  
+    font-size: 16px;
+    padding: 1px 6px;
+    margin-top: 4px;  
+}
+.language a:hover{
+    color: #0e0909c2
+}
+.footer{
+    position: absolute;
+    bottom: 38px;
+    width: 53vh;
+    display: flex;
+    color: #0e0909ad;
+
+}
+/* .footer small{
+    color: #0e0909ad;
+} */
+
+.footer p{
+     color: #0e0909ad;
+    margin-left: 12px;
+}
+
+@media screen and (max-width: 1000px) {
+    .container{
+        flex-direction: column;
+    }
+    .form{
+        width: 68%;
+        height: 60vh;
+    } 
+    .rightfb{
+        width: 100%;  
+        position: absolute;
+     bottom: 205px;;    
+    }
+    .leftfb h1 {
+        font-size: 11vw;
+        /* text-align: center; */
+    }
+    .inner-left {
+        width: 65%;
+        top: 3%;
+        left: 44px;
+        height: 15%;
+        margin: auto;
+    }
+    .leftfb p {
+        letter-spacing: 0px;
+        font-size: 15px;
+    }
+    form{
+        width: 81vw;
+        height: 33vh;
+        position: absolute;
+        top: 37%;
+    }
+    .rightfb form input {
+        width: 100%;
+        min-height: 19px;
+        border: 1px solid #0000002e;
+        margin-top: 5px;
+        padding: 10px;
+        font-size: 14px;
+    }
+    .btno-fb {
+        font-size: 16px;
+        width: 108%;
+        
+    }
+    .forgetpassword {
+        margin-top: 11px;
+        font-size: 11px;
+    }
+    .btna-fb {
+        font-size: 14px;
+        padding: 12px 0px;
+        margin-top: 39px;
+        width: 60%;
+
+     
+    }
+    .faceBook h1 {
+        position: relative;
+        top: -12px;
+        font-size: 29px;
+        font-weight: 600;
+    }
+    .language {
+        position: absolute;
+        top: 70%;
+    }
+    .right-attribute{
+        left: 82px;
+        font-size: 23px;
+    }
+    .left-attribute{
+        left: -110px;
+    }
+    .language a{
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: 100;
+    }
+    .footer{
+        bottom: 15%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .footer p{
+       margin-top: 18px;
+    }
+    .forgetpassword a{
+        font-size: 14px;
+        text-underline-offset: 6px;
+    }
+    }
